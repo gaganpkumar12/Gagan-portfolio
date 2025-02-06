@@ -88,7 +88,7 @@ const Footer = () => {
               <li className="text-lg font-semibold">Socials</li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <Link
-                  href="https://www.linkedin.com/gaganpkumar"
+                  href="https://www.linkedin.com/in/gaganpkumar/"
                   target="_blank"
                 >
                   LinkedIn
