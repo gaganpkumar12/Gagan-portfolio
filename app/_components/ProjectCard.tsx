@@ -14,8 +14,8 @@ interface ProjectProps {
   description: string;
   imageUrl: string;
   techStack: string[];
-  liveDemoUrl: string;
-  sourceCodeUrl: string;
+  // liveDemoUrl: string;
+  // sourceCodeUrl: string;
 }
 
 const ProjectCard = ({ project }: { project: ProjectProps }) => {

@@ -50,8 +50,8 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
     description,
     imageUrl,
     techStack,
-    liveDemoUrl,
-    sourceCodeUrl,
+    // liveDemoUrl,
+    // sourceCodeUrl,
   } = project;
 
   return (
