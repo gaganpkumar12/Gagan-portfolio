@@ -1,10 +1,11 @@
-import { ChevronRight, Download } from "lucide-react";
+import { ChevronRight, Download, Github, Linkedin } from "lucide-react";
 import ShinyButton from "./ui/ShinyButton";
 import { tooltipItems } from "../_lib/constants";
 import Link from "next/link";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 import { Spotlight } from "./ui/Spotlight";
 import { div } from "framer-motion/client";
+import SocialIcons from "./SocialIcons";
 
 const HeroSection = () => {
   return (
@@ -37,6 +38,8 @@ const HeroSection = () => {
             <ShinyButton icon={<ChevronRight />}>
               <Link href="#work">See My Work</Link>
             </ShinyButton>
+            
+
             <a
               href="/resume/CV_en.pdf"
               download
@@ -47,9 +50,19 @@ const HeroSection = () => {
                 Download CV
               </span>
             </a>
+            
+
           </div>
+          
         </div>
+        <div className="justify-center pt-6 ">
+
+        <SocialIcons />
+
+        </div>
+        
       </div>
+      
     </div>
   );
 };
